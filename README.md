@@ -21,3 +21,9 @@ The various copper packages in one repo. Used to power Copper-Ops Platform
 
 ## copper-band
 // elastic search plugin
+
+## copper-components
+// ideally pure web compoennts
+
+## copper-delivery
+// github actions/projects/etc
