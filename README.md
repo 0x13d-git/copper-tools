@@ -4,8 +4,11 @@ The various copper packages in one repo. Used to power Copper-Ops Platform
 ## copper-ui
 // shell - fluentui
 
-## copper-core
+## copper-machines
 // xstate
+// copper-webshell-machine
+// copper-vmware-machine
+// copper-salesforce-machine
 
 ## copper-test
 // xstate test
@@ -15,7 +18,6 @@ The various copper packages in one repo. Used to power Copper-Ops Platform
 
 ## copper-strike
 // mitre
-# copperstrike
 Mitre test and evaluation framework. Main value add is NIST Cyber Security Framework, Privacy Framework, and Risk Management Framework correlation.
 https://csrc.nist.gov/publications/detail/white-paper/2019/06/11/mitigating-risk-of-software-vulnerabilities-with-ssdf/draft
 
@@ -29,31 +31,26 @@ A **service** can be thrown onto a server to allow various attacker tools as a s
 
 A **datastore** is an API for integration into other applications and workflows.
 
-## Buzz Words
+### Buzz Words
 
 - Low-code platform: configure new modules easily. This allows copper-strike to deliver payloads from other attack frameworks.
 
 
-## Vaporware?
+### Vaporware?
 
 - this an open sourced bare bones version of attack IQ. Designed for redteams.
 
 
-## Tie ins
+### Tie ins
 
 ### As a learning aid
 * https://www.hackthebox.eu/individuals
 * https://github.com/so87/Home-Lab/blob/master/development-pipeline.pdf
 * https://www.offensive-security.com/pricing/
-* 
+
+
 ## copper-ide
 // vscode
 
 ## copper-band
 // elastic search plugin
-
-## copper-components
-// ideally pure web compoennts
-
-## copper-delivery
-// github actions/projects/etc
