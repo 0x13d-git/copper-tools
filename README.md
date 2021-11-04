@@ -3,6 +3,7 @@
 The various copper packages in one repo. Used to power Copper-Ops Platform
 
 ## copper-shell
+
 ```
 // shell - fluentui
 ```
@@ -15,6 +16,14 @@ The various copper packages in one repo. Used to power Copper-Ops Platform
 // copper-vmware-machine
 // copper-salesforce-machine
 ```
+
+## copper-delivery
+
+```
+// CI/CD - github actions
+```
+
+@SEE https://github.com/0x13d-git/copper-delivery
 
 ## copper-test
 
