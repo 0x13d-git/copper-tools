@@ -1,23 +1,39 @@
 # copper-tools
+
 The various copper packages in one repo. Used to power Copper-Ops Platform
 
-## copper-ui
+## copper-shell
+```
 // shell - fluentui
+```
 
 ## copper-machines
+
+```
 // xstate
 // copper-webshell-machine
 // copper-vmware-machine
 // copper-salesforce-machine
+```
 
 ## copper-test
+
+```
 // xstate test
+```
 
 ## copper-defense
+
+```
 // browswer plugin for CopperOps
+```
 
 ## copper-strike
+
+```
 // mitre
+```
+
 Mitre test and evaluation framework. Main value add is NIST Cyber Security Framework, Privacy Framework, and Risk Management Framework correlation.
 https://csrc.nist.gov/publications/detail/white-paper/2019/06/11/mitigating-risk-of-software-vulnerabilities-with-ssdf/draft
 
@@ -50,7 +66,14 @@ A **datastore** is an API for integration into other applications and workflows.
 
 
 ## copper-ide
+
+```
 // vscode
+```
 
 ## copper-band
+
+```
 // elastic search plugin
+```
+
