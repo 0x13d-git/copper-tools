@@ -41,20 +41,12 @@ The various copper packages in one repo. Used to power Copper-Ops Platform
 
 ```
 // mitre
+// owasp
+// target: node packages, azure b2c
 ```
 
 Mitre test and evaluation framework. Main value add is NIST Cyber Security Framework, Privacy Framework, and Risk Management Framework correlation.
 https://csrc.nist.gov/publications/detail/white-paper/2019/06/11/mitigating-risk-of-software-vulnerabilities-with-ssdf/draft
-
-Exported data can be analyzed in 013xd/copperhead
-
-Run modes: evaluation, service, datastore
-
-An **evaluation** gives prompts to run various Mitre technqiues against a host. Results can be rolled into copper-head for visualization.
-
-A **service** can be thrown onto a server to allow various attacker tools as a service: reverse shell, _benign_ payload download, channels for exfiltration, etc.
-
-A **datastore** is an API for integration into other applications and workflows.
 
 ### Buzz Words
 
