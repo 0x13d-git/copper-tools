@@ -2,16 +2,49 @@
 
 The various copper packages in one repo. Used to power Copper-Ops Platform
 
+
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+
+<!-- code_chunk_output -->
+
+- [copper-tools](#copper-tools)
+  - [copper-auth](#copper-auth)
+  - [copper-state](#copper-state)
+  - [copper-shell](#copper-shell)
+  - [copper-log](#copper-log)
+  - [copper-persist](#copper-persist)
+  - [copper-crud](#copper-crud)
+  - [copper-delivery](#copper-delivery)
+  - [copper-test](#copper-test)
+  - [copper-secure](#copper-secure)
+  - [copper-develop](#copper-develop)
+
+<!-- /code_chunk_output -->
+
+## copper-auth
+
+## copper-state
+
 ## copper-shell
 
 ```
 // shell - fluentui
 ```
 
-## copper-machines
+## copper-log
+
+// logRocket
+
+## copper-persist
+
+// pouchDb as the default persistence module
+
+## copper-crud
+
+OpenAPI AutoCrud
 
 ```
-// xstate
+demos:
 // copper-webshell-machine
 // copper-vmware-machine
 // copper-salesforce-machine
@@ -31,50 +64,26 @@ The various copper packages in one repo. Used to power Copper-Ops Platform
 // xstate test
 ```
 
-## copper-defense
+## copper-secure
+
+* **blue**: built in security module which uses elsatic security rules for real time evaluation of events within the state machine
+
+* **red**: Browser plugin which contains benign attack scripts to demostrate coverage. Works with a custom elastic endpoint for communication with the SIEM
 
 ```
-// browswer plugin for CopperOps
-```
+notes:
 
-## copper-strike
-
-```
 // mitre
 // owasp
-// target: node packages, azure b2c
-```
 
 Mitre test and evaluation framework. Main value add is NIST Cyber Security Framework, Privacy Framework, and Risk Management Framework correlation.
 https://csrc.nist.gov/publications/detail/white-paper/2019/06/11/mitigating-risk-of-software-vulnerabilities-with-ssdf/draft
 
-### Buzz Words
+```
 
-- Low-code platform: configure new modules easily. This allows copper-strike to deliver payloads from other attack frameworks.
-
-
-### Vaporware?
-
-- this an open sourced bare bones version of attack IQ. Designed for redteams.
-
-
-### Tie ins
-
-### As a learning aid
-* https://www.hackthebox.eu/individuals
-* https://github.com/so87/Home-Lab/blob/master/development-pipeline.pdf
-* https://www.offensive-security.com/pricing/
-
-
-## copper-ide
+## copper-develop
 
 ```
 // vscode
-```
-
-## copper-band
-
-```
-// elastic search plugin
 ```
 
